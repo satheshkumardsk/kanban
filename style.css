@@ -118,3 +118,30 @@
   width: 25%;
   height: 100%;
 }
+
+.tickets-container {
+  border: 1px solid black;
+  width: 100vw;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 1rem;
+}
+
+.ticket-details {
+  border: 1px solid black;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+.ticket-color {
+  height: 10px;
+}
+
+.ticket-lock{
+  align-self: flex-end;
+}
